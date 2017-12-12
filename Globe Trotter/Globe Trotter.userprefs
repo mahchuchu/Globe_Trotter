@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{C88FA824-87EF-C7AD-C0C9-935E15B6BF50}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CoinController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CoinController.cs" Line="3" Column="19" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/DeadZoneScript.cs" Line="10" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

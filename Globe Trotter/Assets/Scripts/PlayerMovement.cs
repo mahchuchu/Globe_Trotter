@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerMovement : MonoBehaviour {
 
 	public float playerSpeed;
+	public float jumpHeight;
 	private Rigidbody rb;
 
     
@@ -20,7 +22,7 @@ public class PlayerMovement : MonoBehaviour {
 		if(onGround) {
 			if (Input.GetButtonDown("Jump"))
 			{
-				rb.velocity = new Vector3(rb.velocity.x, 5f, rb.velocity.z);
+				rb.velocity = new Vector3(rb.velocity.x, jumpHeight, rb.velocity.z);
 				onGround = false;
 			}
         }

@@ -8,8 +8,10 @@ public class CoinController : MonoBehaviour {
 	public static int Score;
 	public Text scoreText;
 
+
 	// Initializes the score UI. 
 	void Start () {
+		Score = 0;
 		SetCountText();
 	}
 	

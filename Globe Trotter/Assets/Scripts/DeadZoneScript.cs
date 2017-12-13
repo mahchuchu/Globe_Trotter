@@ -12,7 +12,8 @@ public class DeadZoneScript : MonoBehaviour {
 	{
 		if(collision.gameObject.tag == "Player")
 		{
-			SceneManager.LoadScene("LevelTwo");
+			
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 	}
 }

@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\DeadZoneScript.cs" />
      <Compile Include="Assets\Scripts\GoalController.cs" />
      <Compile Include="Assets\Scripts\LightingController.cs" />
+     <Compile Include="Assets\Scripts\MenuManagementController.cs" />
      <Compile Include="Assets\Scripts\MovingPlatform.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />

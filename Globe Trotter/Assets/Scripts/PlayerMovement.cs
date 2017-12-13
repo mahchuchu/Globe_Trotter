@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour {
 		rb = GetComponent<Rigidbody>();
 	}
 
+	// This function controls the jumping of the player. 
     void Update(){
 
 		if(onGround) {
@@ -29,6 +30,7 @@ public class PlayerMovement : MonoBehaviour {
 
     }
 
+	// This function checks when the player is on the ground so they can jump. 
 	void OnCollisionEnter(Collision collision)
 	{
 		if (collision.gameObject.CompareTag("Ground"))
@@ -36,7 +38,8 @@ public class PlayerMovement : MonoBehaviour {
 			onGround = true;
 		}
 	}
-	
+
+	// This function controls player movement using the arrow keys.
 	void FixedUpdate ()
     {
         float moveHorizontal = Input.GetAxis ("Horizontal");

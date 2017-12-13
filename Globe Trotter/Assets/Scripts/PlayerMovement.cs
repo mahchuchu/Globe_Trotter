@@ -1,5 +1,5 @@
 ﻿//Get the features of the CoinController and DeadZoneScript into this file. Make sure you make those changes 
-// in the scene as well.
+// in the scene as wel
 using UnityEngine;
 
 

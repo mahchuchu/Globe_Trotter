@@ -22,6 +22,7 @@ public class GoalController : MonoBehaviour {
 	// Uncomment this section when level 3 is introduced. 
 	public void NextLevel()
 	{
-		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		Time.timeScale = 1;
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 }

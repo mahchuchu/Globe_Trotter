@@ -9,17 +9,23 @@ public class MenuManagementController : MonoBehaviour {
 		SceneManager.LoadScene("Level 1");
 	}
 
-	public void HowtoPlay ()
+	public void LoadHowToPlay()
 	{
-		SceneManager.LoadScene ("How To Play");
+		SceneManager.LoadScene("How To Play");
 	}
 
-	public void LoadCredits()
+	public void LoadCreditsFromLevelThree()
 	{
+		Time.timeScale = 1;
 		SceneManager.LoadScene("Credits");
 	}
 
 	public void LoadMenuFromCredits()
+	{
+		SceneManager.LoadScene("Menu");
+	}
+
+	public void LoadMenuFromHowToPlay()
 	{
 		SceneManager.LoadScene("Menu");
 	}

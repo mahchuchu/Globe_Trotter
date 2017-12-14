@@ -93,6 +93,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a0732f3b20d426d9f4466a35847fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  audiosource: {fileID: 0}
 --- !u!136 &136351464298793788
 CapsuleCollider:
   m_ObjectHideFlags: 1

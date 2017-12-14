@@ -7,6 +7,7 @@ public class CoinController : MonoBehaviour {
 
 	public static int Score;
 	public Text scoreText;
+	public AudioSource audiosource;
 
 
 	// Initializes the score UI. 
@@ -24,9 +25,10 @@ public class CoinController : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag ("Player")) {
-			gameObject.SetActive (false);
+			audiosource.Play ();
 			Score++;
 			SetCountText();
+			gameObject.SetActive (false);
 			Debug.Log(Score);
 		}
 	}

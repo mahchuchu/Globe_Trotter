@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour {
 	public float jumpHeight;
 	private Rigidbody rb;
 
+	public AudioSource jumpSound;
     
     public bool onGround;
 
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour {
 			{
 				rb.velocity = new Vector3(rb.velocity.x, jumpHeight, rb.velocity.z);
 				onGround = false;
+				jumpSound.Play();
 			}
         }
 

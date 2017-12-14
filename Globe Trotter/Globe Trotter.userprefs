@@ -1,20 +1,12 @@
-﻿<Properties StartupConfiguration="{C88FA824-87EF-C7AD-C0C9-935E15B6BF50}|Unit Tests" StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraController.cs">
+﻿<Properties StartupConfiguration="{C88FA824-87EF-C7AD-C0C9-935E15B6BF50}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GoalController.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/Scripts/MenuManagementController.cs" Line="19" Column="31" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="51" Column="6" />
-      <File FileName="Assets/Scripts/CoinController.cs" Line="2" Column="34" />
-=======
->>>>>>> a4831637e2e642a42970d38703832fed2a4be7c5
-      <File FileName="Assets/Scripts/CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CoinController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LightingController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/DeadZoneScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GoalController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

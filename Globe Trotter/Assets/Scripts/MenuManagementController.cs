@@ -9,6 +9,11 @@ public class MenuManagementController : MonoBehaviour {
 		SceneManager.LoadScene("Level 1");
 	}
 
+	public void HowtoPlay ()
+	{
+		SceneManager.LoadScene ("How To Play");
+	}
+
 	public void LoadCredits()
 	{
 		SceneManager.LoadScene("Credits");

@@ -29,4 +29,9 @@ public class MenuManagementController : MonoBehaviour {
 	{
 		SceneManager.LoadScene("Menu");
 	}
+
+	public void LoadCreditsFromMenu()
+	{
+		SceneManager.LoadScene("Credits");
+	}
 }
